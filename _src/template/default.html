@@ -6,14 +6,15 @@
   </head>
 
   <body>
-    <script src="/assets/app.bundle.js"></script>
+
     <main>
     {{ content }}
     </main>
 
+    {% include footer.html %}
+
     {% include scripts.html %}
 
-    {% include footer2.html %}
   </body>
 
 </html>
