@@ -6,11 +6,11 @@ app:
 footer:
   copyright: Ⓒ AutoGrade 2021
   links:
-    - title: Github
-      url: https://github.com/sandoche/Mobile-app-landingpage-template
-      target: _blank
-    - title: Donate
-      url: https://paypal.me/kanbanote
-      target: _blank
+    # - title: Github
+      # url: https://github.com/sandoche/Mobile-app-landingpage-template
+      # target: _blank
+    # - title: Donate
+      # url: https://paypal.me/kanbanote
+      # target: _blank
     - title: Privacy
       url: /privacy
