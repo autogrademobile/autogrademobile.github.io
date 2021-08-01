@@ -12,5 +12,7 @@ footer:
     # - title: Donate
       # url: https://paypal.me/kanbanote
       # target: _blank
+    - title: Telegram
+      url: https://t.me/autograde
     - title: Privacy
       url: /privacy
