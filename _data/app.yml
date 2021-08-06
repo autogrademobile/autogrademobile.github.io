@@ -8,7 +8,7 @@ full_description: 'Grade &amp; score multiple-choice tests, quizzes, and assessm
 <br>4. Press <b>Key</b>. Press <b>Create my first key</b>. Enter your key or open camera to scan the key
 <br>5. Press <b>Grade</b> to start scanning papers. Follow the guide shown in the app
 <br>6. Press <b>Review</b> to see your result'
-android: ''
+android: 'https://play.google.com/store/apps/details?id=app.autograde.android'
 iOS: https://apps.apple.com/us/app/autograde/id1576712386
 screenshots:
   - 1.jpg
