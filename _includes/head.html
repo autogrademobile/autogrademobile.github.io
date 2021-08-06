@@ -2,15 +2,16 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-<meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+<meta name="description" content="{{ page.excerpt | default: site.translations[site.lang].description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
 <meta name="theme-color" content="{{ site.theme_color }}">
 <meta name="msapplication-navbutton-color" content="{{ site.theme_color }}">
 <meta name="apple-mobile-web-app-status-bar-style" content="{{ site.theme_color }}">
 <meta property="og:image" content="{{ site.url }}/{{ site.logo }}" />
 
-<link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+<link rel="alternate" type="application/rss+xml" title="{{ site.translations[site.lang].title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 <link href="https://fonts.googleapis.com/css?family=Heebo:900" rel="stylesheet">
+<title>{{ page.excerpt | default: site.translations[site.lang].full_title | strip_html | normalize_whitespace | truncate: 160 | escape }}</title>
 
 {% seo %}
 

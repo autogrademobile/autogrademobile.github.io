@@ -2,10 +2,10 @@
 layout: amp
 ---
 <!doctype html>
-<html amp lang="en">
+<html amp lang="">
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    <title>{{ page.excerpt | default: site.translations[site.lang].full_title | strip_html | normalize_whitespace | truncate: 160 | escape }}</title>
     <link rel="canonical" href="{{ page.canonical_url | prepend: site.baseurl | prepend: site.url }}" />
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <style amp-custom>
