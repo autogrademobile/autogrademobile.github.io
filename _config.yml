@@ -56,3 +56,18 @@ exclude:
   - optimization-fix-this-file-is-ignored.js
   - icon.png
   - docs
+
+  # multiple language
+defaults:
+  # default en
+  - values:
+      locale: en
+  # config pages
+  - scope: 
+      path: _vi/**
+    values: 
+      locale: vi
+
+collections: 
+  vi:
+    output: true
