@@ -1,6 +1,9 @@
+meta:
+  description: Grade & score multiple-choice tests, quizzes, and assessment papers by using your smart phone's camera as a scanner.
+  full_title: AutoGrade | Grade & score multiple-choice tests, quizzes, and assessment papers by using your smart phone's camera as a scanner.
 name: AutoGrade
 description: Mobile Based Auto Grading
-full_description: 'Grade &amp; score multiple-choice tests, quizzes, and assessment papers by using your mobile device&#39;s camera as a scanner.<br>
+full_description: 'Grade &amp; score multiple-choice tests, quizzes, and assessment papers by using your smart phone&#39;s camera as a scanner.<br>
 <br>Quick Start:
 <br>1. Press <b>Sheets</b> and choose multiple answer sheet
 <br>2. Press <b>Create my first quiz</b>. Fill in a quiz information

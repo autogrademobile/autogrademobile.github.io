@@ -5,7 +5,7 @@
 
 title: AutoGrade
 email: tintran@autograde.app
-description: Grade & score multiple-choice tests, quizzes, and assessment papers by using your iOS device's camera as a scanner.
+description: Grade & score multiple-choice tests, quizzes, and assessment papers by using your smart phone's camera as a scanner.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://autograde.app"
 theme_color: '#efeeff'

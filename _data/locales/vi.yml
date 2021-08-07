@@ -1,3 +1,6 @@
+meta:
+  description: Sử dụng máy ảnh điện thoại để chấm điểm bài trắc nghiệm và xem kết quả ngay sau đó.
+  full_title: AutoGrade - Chấm trắc nghiệm | Sử dụng máy ảnh điện thoại để chấm điểm bài trắc nghiệm và xem kết quả ngay sau đó.
 name: AutoGrade
 description: Chấm bài thi bằng điện thoại
 full_description: 'Sử dụng máy ảnh điện thoại để chấm điểm bài trắc nghiệm và xem kết quả ngay sau đó.<br>
