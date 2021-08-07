@@ -35,6 +35,8 @@ try {
     var supported_languages = ['en', 'vi'];
     var suitable_lang = getBestSuitableSupportedLang(lang, locale, supported_languages);
     localStorage.setItem('current_lang', suitable_lang);
-    window.location = '/' + suitable_lang + '/';
+    if (suitable_lang === 'vi') {
+      window.location = '/' + suitable_lang + '/';
+    }
   }
 } catch (e) { }
