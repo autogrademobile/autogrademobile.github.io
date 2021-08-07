@@ -15,6 +15,7 @@ author: Tin Tran
 logo: assets/images/large-logo.png
 languages: ["en", "vi"]
 ampdir: amp
+repository: autogrademobile/autogrademobile.github.io
 
 # github: https://github.com/autogrademobile/autogrademobile.github.io
 
