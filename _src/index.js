@@ -1,7 +1,7 @@
 // CSS and SASS files
+import Tobi from 'rqrauhvmra__tobi';
 import './index.scss';
 
-import Tobi from 'rqrauhvmra__tobi'
 const tobi = new Tobi()
 
 /*
@@ -16,3 +16,25 @@ function addDarkmodeWidget() {
 }
 window.addEventListener('load', addDarkmodeWidget)
 */
+try {
+  var current_lang = localStorage.getItem('current_lang');
+  if (typeof (current_lang) !== 'string') {
+    function getBestSuitableSupportedLang(lang, locale, supported) {
+      // Exclude first element, default language
+      var supported_lang = supported.shift();
+
+      if (supported.includes(lang + "-" + locale)) {
+        supported_lang = lang + "-" + locale;
+      } else if (supported.includes(lang)) {
+        supported_lang = lang;
+      }
+
+      return supported_lang;
+    }
+    var [lang, locale] = (((navigator.userLanguage || navigator.language).replace('-', '_')).toLowerCase()).split('_');
+    var supported_languages = ['en', 'vi'];
+    var suitable_lang = getBestSuitableSupportedLang(lang, locale, supported_languages);
+    localStorage.setItem('current_lang', suitable_lang);
+    window.location = '/' + suitable_lang + '/';
+  }
+} catch (e) { }

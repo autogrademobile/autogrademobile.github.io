@@ -12,6 +12,10 @@ footer:
     # - title: Donate
       # url: https://paypal.me/kanbanote
       # target: _blank
+    - title: English
+      url: /
+    - title: 'Tiếng Việt'
+      url: /vi
     - title: Telegram
       url: https://t.me/autograde
     - title: Privacy

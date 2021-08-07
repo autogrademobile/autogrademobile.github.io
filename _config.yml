@@ -5,7 +5,7 @@
 
 title: AutoGrade
 email: tintran@autograde.app
-description: Grade & score multiple-choice tests, quizzes, and assessment papers by using your iOS device's camera as a scanner.
+description: Grade & score multiple-choice tests, quizzes, and assessment papers by using your smart phone's camera as a scanner.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://autograde.app"
 theme_color: '#efeeff'
@@ -15,6 +15,7 @@ author: Tin Tran
 logo: assets/images/large-logo.png
 languages: ["en", "vi"]
 ampdir: amp
+repository: autogrademobile/autogrademobile.github.io
 
 # github: https://github.com/autogrademobile/autogrademobile.github.io
 
@@ -56,3 +57,18 @@ exclude:
   - optimization-fix-this-file-is-ignored.js
   - icon.png
   - docs
+
+  # multiple language
+defaults:
+  # default en
+  - values:
+      locale: en
+  # config pages
+  - scope: 
+      path: _vi/**
+    values: 
+      locale: vi
+
+collections: 
+  vi:
+    output: true

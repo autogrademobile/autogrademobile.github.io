@@ -1,0 +1,24 @@
+meta:
+  description: Sử dụng máy ảnh điện thoại để chấm điểm bài trắc nghiệm và xem kết quả ngay sau đó.
+  full_title: AutoGrade - Chấm trắc nghiệm | Sử dụng máy ảnh điện thoại để chấm điểm bài trắc nghiệm và xem kết quả ngay sau đó.
+name: AutoGrade
+description: Chấm bài thi bằng điện thoại
+full_description: 'Sử dụng máy ảnh điện thoại để chấm điểm bài trắc nghiệm và xem kết quả ngay sau đó.<br>
+<br>Cách sử dụng:
+<br>1. Bấm <b>Phiếu chấm</b> sau đó in ra
+<br>2. Bấm <b>Tạo bài thi mới</b>. Điền thông tin của bài thi
+<br>3. Chọn bài thi mới vừa tạo
+<br>4. Bấm <b>Đáp án</b>. Bấm <b>Tạo đáp án mới</b>. Nhập đáp án bạn muốn, có thể sử dụng máy ảnh để quét đáp án
+<br>5. Bấm <b>Chấm bài</b> để bắt đầu quét bài thi. Thực hiện theo hướng dẫn
+<br>6. Bấm <b>Xem lại</b> để xem kết quả'
+android: https://play.google.com/store/apps/details?id=app.autograde.android&hl=vi
+iOS: https://apps.apple.com/vn/app/autograde/id1576712386?l=vi
+screenshots:
+  - vi/1.jpg
+  - vi/2.jpg
+  - vi/3.jpg
+  - vi/4.jpg
+  - vi/5.jpg
+strings:
+  screenshots: 'Màn hình chính'
+  description: 'Mô tả'
